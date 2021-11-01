@@ -6,6 +6,7 @@ namespace LinkedList
     {
         static void Main(string[] args)
         {
+ UC_9_Delete_Specific_Node
             //creating object object of LinkedList class
             LinkedList list = new LinkedList();
             //calling append method and provideing data         
@@ -21,6 +22,24 @@ namespace LinkedList
             Console.WriteLine("\nSize of list : "+list.Size());  
             Console.WriteLine();
             Console.ReadLine();
+
+            CustomLinkedList list = new CustomLinkedList();
+
+            list.InsertLast(50);
+            list.InsertLast(30);
+            list.InsertLast(70);
+
+            Console.WriteLine("afete adding the new node list is");
+            list.insertAfterNode(30, 40);
+            list.display();
+            list.size();
+            Console.WriteLine("afete deleting specific node list is:");
+            list.deleteSpecificNode(40);
+            list.display();
+            list.size();
+
+
+ main
         }
     }
 }
