@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace LinkedList
 {
+ UC_5_Delete_First_Element
+    class Node
+    {
+=======
  UC_6_Delete_Last_Element
 =======
  UC_7_search_Element
@@ -31,11 +35,15 @@ UC_6_Delete_Last_Element
         /// <summary>
         /// it Creates the Node 
         /// </summary>
+main
         public int data;
         public Node next;
         public Node(int New_Data)
         {
             data = New_Data;
+ UC_5_Delete_First_Element
+=======
+ main
  main
  main
  main
