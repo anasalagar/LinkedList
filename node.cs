@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace LinkedList
 {
+ UC_2_LinkList_01
+=======
  UC_3_LinkList_02
 =======
  UC_4_Insert_LinkedList
@@ -23,6 +25,7 @@ namespace LinkedList
  main
  main
  main
+ main
     public class Node
     {
         public int data;
@@ -31,6 +34,8 @@ namespace LinkedList
         public Node(int d)
         {
             data = d;
+< UC_2_LinkList_01
+=======
  UC_3_LinkList_02
 =======
  UC_4_Insert_LinkedList
@@ -59,6 +64,7 @@ main
  main
  main
  main
+main
             next = null;
         }
     }
