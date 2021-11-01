@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace LinkedList
 {
+UC_8_Insert_After_Node
+
  UC_9_Delete_Specific_Node
+ main
     public class Node
     {
         public int data;
@@ -15,6 +18,8 @@ namespace LinkedList
         public Node(int d)
         {
             data = d;
+UC_8_Insert_After_Node
+=======
 
     class Node
     {
@@ -26,6 +31,7 @@ namespace LinkedList
         public Node(int New_Data)
         {
             data = New_Data;
+ main
  main
             next = null;
         }
