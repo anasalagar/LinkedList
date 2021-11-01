@@ -6,21 +6,32 @@ namespace LinkedList
     {
         static void Main(string[] args)
         {
+ UC_6_Delete_Last_Element
+=======
 UC_7_search_Element
 
  UC_9_Delete_Specific_Node
+ main
  main
             //creating object object of LinkedList class
             LinkedList list = new LinkedList();
             //calling append method and provideing data         
             list.Append(56);
-< UC_7_search_Element
+ UC_6_Delete_Last_Element
+=======
+ UC_7_search_Element
+ main
             list.Append(70);
             //calling InsertAt method
             list.InsertAt(2, 30);
             list.Display();
             Console.WriteLine();
             //calling delete method
+UC_6_Delete_Last_Element
+            list.DeleteLast();
+            list.Display();
+            Console.ReadLine();
+=======
             list.Search(70);
             list.Display();
             Console.ReadLine();
@@ -53,6 +64,7 @@ UC_7_search_Element
             list.size();
 
 
+ main
  main
  main
         }
