@@ -6,6 +6,8 @@ namespace LinkedList
     {
         static void Main(string[] args)
         {
+ UC_3_LinkList_02
+=======
  UC_4_Insert_LinkedList
 =======
 UC_5_Delete_First_Element
@@ -19,10 +21,18 @@ UC_7_search_Element
  main
  main
  main
+ main
             //creating object object of LinkedList class
             LinkedList list = new LinkedList();
             //calling append method and provideing data         
             list.Append(56);
+ UC_3_LinkList_02
+            list.Append(30);
+            list.Append(70);
+            //calling display method
+            list.Display();
+            Console.ReadLine();
+=======
  UC_4_Insert_LinkedList
             list.Append(70);
             //calling display method
@@ -91,6 +101,7 @@ UC_6_Delete_Last_Element
  main
  main
  main
+main
         }
     }
 }
