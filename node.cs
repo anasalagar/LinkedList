@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace LinkedList
 {
+ UC_4_Insert_LinkedList
+=======
  UC_5_Delete_First_Element
     class Node
     {
@@ -17,6 +19,7 @@ namespace LinkedList
  UC_9_Delete_Specific_Node
  main
  main
+ main
     public class Node
     {
         public int data;
@@ -25,6 +28,8 @@ namespace LinkedList
         public Node(int d)
         {
             data = d;
+ UC_4_Insert_LinkedList
+=======
 UC_6_Delete_Last_Element
 =======
  UC_7_search_Element
@@ -43,6 +48,7 @@ main
             data = New_Data;
  UC_5_Delete_First_Element
 =======
+ main
  main
  main
  main
