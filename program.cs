@@ -13,7 +13,7 @@ UC_1_Simple_linkedList
             list.Add(70);
             list.Display();
             Console.ReadLine();
-=======
+
  UC_2_LinkList_01
            //creating object object of LinkedList class
             LinkedList list = new LinkedList();
@@ -27,23 +27,19 @@ UC_1_Simple_linkedList
             list.AddFirst(30);
             list.AddFirst(56);
             Console.ReadLine();
-=======
+
  UC_3_LinkList_02
-=======
+
  UC_4_Insert_LinkedList
-=======
+
 UC_5_Delete_First_Element
-=======
+
  UC_6_Delete_Last_Element
-=======
+
 UC_7_search_Element
 
  UC_9_Delete_Specific_Node
- main
- main
- main
- main
- main
+ 
             //creating object object of LinkedList class
             LinkedList list = new LinkedList();
             //calling append method and provideing data         
@@ -54,7 +50,7 @@ UC_7_search_Element
             //calling display method
             list.Display();
             Console.ReadLine();
-=======
+
  UC_4_Insert_LinkedList
             list.Append(70);
             //calling display method
@@ -62,11 +58,11 @@ UC_7_search_Element
             list.InsertAt(2, 30);
             list.Display();
             Console.ReadLine();
-=======
+
  UC_5_Delete_First_Element
 =======
  UC_6_Delete_Last_Element
-=======
+
  UC_7_search_Element
  main
  main
@@ -80,12 +76,12 @@ UC_7_search_Element
             list.DeleteFirst();
             list.Display();
             Console.ReadLine();
-=======
+
 UC_6_Delete_Last_Element
             list.DeleteLast();
             list.Display();
             Console.ReadLine();
-=======
+
             list.Search(70);
             list.Display();
             Console.ReadLine();
@@ -118,14 +114,7 @@ UC_6_Delete_Last_Element
             list.size();
 
 
- main
- main
- main
- main
- main
-main
- main
- main
+
         }
     }
 }
